@@ -8,7 +8,7 @@ s=m:section(TypedSection,"easyupdate")
 s.anonymous=true
 
 e=s:option(Flag, "enable", translate("Enable"),translate("When selected, firmware upgrade will be automatically at the specified time."))
-e.default=0
+e.default=1
 e.optional=false
 
 p=s:option(Value,"mirror",translate("Mirror Url"),translate("Once configured, the mirror URL will be used when accessing Github."))
