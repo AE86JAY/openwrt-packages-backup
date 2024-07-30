@@ -1,2 +1,2 @@
 config easyupdate 'main'
-	option enable '0'
+	option enable '1'
